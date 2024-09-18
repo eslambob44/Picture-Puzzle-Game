@@ -1,0 +1,14 @@
+D:\programmin\first jorney\Picture Puzzle Game\bin\Debug\Picture Puzzle Game.exe.config
+D:\programmin\first jorney\Picture Puzzle Game\bin\Debug\Picture Puzzle Game.exe
+D:\programmin\first jorney\Picture Puzzle Game\bin\Debug\Picture Puzzle Game.pdb
+D:\programmin\first jorney\Picture Puzzle Game\bin\Debug\Guna.UI2.dll
+D:\programmin\first jorney\Picture Puzzle Game\obj\Debug\Picture Puzzle Game.csproj.AssemblyReference.cache
+D:\programmin\first jorney\Picture Puzzle Game\obj\Debug\Picture_Puzzle_Game.Form1.resources
+D:\programmin\first jorney\Picture Puzzle Game\obj\Debug\Picture_Puzzle_Game.Properties.Resources.resources
+D:\programmin\first jorney\Picture Puzzle Game\obj\Debug\Picture Puzzle Game.csproj.GenerateResource.cache
+D:\programmin\first jorney\Picture Puzzle Game\obj\Debug\Picture Puzzle Game.csproj.CoreCompileInputs.cache
+D:\programmin\first jorney\Picture Puzzle Game\obj\Debug\Picture .4D455E88.Up2Date
+D:\programmin\first jorney\Picture Puzzle Game\obj\Debug\Picture Puzzle Game.exe
+D:\programmin\first jorney\Picture Puzzle Game\obj\Debug\Picture Puzzle Game.pdb
+D:\programmin\first jorney\Picture Puzzle Game\bin\Debug\MyClassLib.dll
+D:\programmin\first jorney\Picture Puzzle Game\bin\Debug\MyClassLib.pdb
