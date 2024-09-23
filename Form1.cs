@@ -113,7 +113,7 @@ namespace Picture_Puzzle_Game
                 if (c is Button)
                 {
                     Button btn = (Button)c;
-                    if (btn.ImageIndex==6)
+                    if (btn.ImageIndex==0)
                     {
                         return btn;
                     }
@@ -177,7 +177,7 @@ namespace Picture_Puzzle_Game
 
         void EndGame()
         {
-            btn6.ImageIndex = 9;
+            btn0.ImageIndex = 9;
             GameTimer.Stop();
             MessageBox.Show("congratulations");
             ResetGame();

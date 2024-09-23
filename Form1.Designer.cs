@@ -49,9 +49,9 @@
             this.lblTimeTaken = new System.Windows.Forms.Label();
             this.GameTimer = new System.Windows.Forms.Timer(this.components);
             this.gbDifficultyLvl = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.rbEasy = new Guna.UI2.WinForms.Guna2RadioButton();
-            this.rbMedium = new Guna.UI2.WinForms.Guna2RadioButton();
             this.rbHard = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.rbMedium = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.rbEasy = new Guna.UI2.WinForms.Guna2RadioButton();
             this.btnReset = new Guna.UI2.WinForms.Guna2Button();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -100,16 +100,16 @@
             // 
             this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "1.jpg");
+            this.imageList1.Images.SetKeyName(0, "Gray.jpg");
             this.imageList1.Images.SetKeyName(1, "2.jpg");
             this.imageList1.Images.SetKeyName(2, "3.jpg");
             this.imageList1.Images.SetKeyName(3, "4.jpg");
             this.imageList1.Images.SetKeyName(4, "5.jpg");
             this.imageList1.Images.SetKeyName(5, "6.jpg");
-            this.imageList1.Images.SetKeyName(6, "Gray.jpg");
+            this.imageList1.Images.SetKeyName(6, "7.jpg");
             this.imageList1.Images.SetKeyName(7, "8.jpg");
             this.imageList1.Images.SetKeyName(8, "9.jpg");
-            this.imageList1.Images.SetKeyName(9, "7.jpg");
+            this.imageList1.Images.SetKeyName(9, "1.jpg");
             // 
             // btn4
             // 
@@ -319,25 +319,23 @@
             this.gbDifficultyLvl.TabIndex = 7;
             this.gbDifficultyLvl.Text = "Difficulty Lvl";
             // 
-            // rbEasy
+            // rbHard
             // 
-            this.rbEasy.AutoSize = true;
-            this.rbEasy.Checked = true;
-            this.rbEasy.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.rbEasy.CheckedState.BorderThickness = 0;
-            this.rbEasy.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.rbEasy.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.rbEasy.CheckedState.InnerOffset = -4;
-            this.rbEasy.Location = new System.Drawing.Point(13, 55);
-            this.rbEasy.Name = "rbEasy";
-            this.rbEasy.Size = new System.Drawing.Size(69, 29);
-            this.rbEasy.TabIndex = 0;
-            this.rbEasy.TabStop = true;
-            this.rbEasy.Text = "Easy";
-            this.rbEasy.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.rbEasy.UncheckedState.BorderThickness = 2;
-            this.rbEasy.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.rbEasy.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.rbHard.AutoSize = true;
+            this.rbHard.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.rbHard.CheckedState.BorderThickness = 0;
+            this.rbHard.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.rbHard.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.rbHard.CheckedState.InnerOffset = -4;
+            this.rbHard.Location = new System.Drawing.Point(13, 121);
+            this.rbHard.Name = "rbHard";
+            this.rbHard.Size = new System.Drawing.Size(73, 29);
+            this.rbHard.TabIndex = 2;
+            this.rbHard.Text = "Hard";
+            this.rbHard.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.rbHard.UncheckedState.BorderThickness = 2;
+            this.rbHard.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.rbHard.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
             // 
             // rbMedium
             // 
@@ -357,23 +355,25 @@
             this.rbMedium.UncheckedState.FillColor = System.Drawing.Color.Transparent;
             this.rbMedium.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
             // 
-            // rbHard
+            // rbEasy
             // 
-            this.rbHard.AutoSize = true;
-            this.rbHard.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.rbHard.CheckedState.BorderThickness = 0;
-            this.rbHard.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.rbHard.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.rbHard.CheckedState.InnerOffset = -4;
-            this.rbHard.Location = new System.Drawing.Point(13, 121);
-            this.rbHard.Name = "rbHard";
-            this.rbHard.Size = new System.Drawing.Size(73, 29);
-            this.rbHard.TabIndex = 2;
-            this.rbHard.Text = "Hard";
-            this.rbHard.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.rbHard.UncheckedState.BorderThickness = 2;
-            this.rbHard.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.rbHard.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.rbEasy.AutoSize = true;
+            this.rbEasy.Checked = true;
+            this.rbEasy.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.rbEasy.CheckedState.BorderThickness = 0;
+            this.rbEasy.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.rbEasy.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.rbEasy.CheckedState.InnerOffset = -4;
+            this.rbEasy.Location = new System.Drawing.Point(13, 55);
+            this.rbEasy.Name = "rbEasy";
+            this.rbEasy.Size = new System.Drawing.Size(69, 29);
+            this.rbEasy.TabIndex = 0;
+            this.rbEasy.TabStop = true;
+            this.rbEasy.Text = "Easy";
+            this.rbEasy.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.rbEasy.UncheckedState.BorderThickness = 2;
+            this.rbEasy.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.rbEasy.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
             // 
             // btnReset
             // 
